@@ -18,7 +18,7 @@ class ViewController: UIViewController {
 
     @IBAction func showCustomSheet(_ sender: Any) {
            
-        let selectOption = VSCustomActionSheet.init(title : "Choose Photo", cancelButtonTitle: "Cancel", otherButtonTitle: ["Take a photo","Pick from gallery","Remove photo","Photo"], completion: { buttonSelected in
+        let selectOption = VSCustomActionSheet.init(title : "Choose Photo", cancelButtonTitle: "Cancel", otherButtonTitle: ["Take a photo","Pick from gallery","Remove photo"], completion: { buttonSelected in
                    
                    if(buttonSelected == 3){
                        print("selected index 3")
@@ -28,9 +28,8 @@ class ViewController: UIViewController {
                       print("selected index 1")
                    }
                })
-               
-               selectOption.showButtons(self.view)
-           }
+        selectOption.showButtons(self.view)
+    }
 
 }
 
