@@ -1,6 +1,10 @@
 # VSCustomActionSheet
 This will allow you to create custom action sheet where you can press some menu and based on that index you can do the action which you want.
 
+# Screen shots 
+  <img align="left" src="https://i.ibb.co/518vjbQ/Simulator-Screen-Shot-i-Phone-11-Pro-Max-2019-12-19-at-12-44-27.png" alt="SS1" width="350" height="800"/>
+  <img align="center" src="https://i.ibb.co/QChCsmf/Simulator-Screen-Shot-i-Phone-11-Pro-Max-2019-12-19-at-12-44-31.png" alt="SS2" width="350" height="800"/>
+
 # Installation
 
 Just drag and drop the "VSCustomActionSheet.swift"file into your project, and make sure you check the "Copy items into destination group's folder" box
