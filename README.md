@@ -9,7 +9,7 @@ Just drag and drop the "VSCustomActionSheet.swift"file into your project, and ma
 
 Creation is very simple, just call the actionsheet initialisation with action sheet menus in array format
 
-```
+```swift
 @IBAction func showCustomSheet(_ sender: Any) {
            
   let selectOption = VSCustomActionSheet.init(title : "Choose Photo", cancelButtonTitle: "Cancel", otherButtonTitle: ["Take a                       photo","Pick from gallery","Remove photo"], completion: { buttonSelected in
@@ -29,7 +29,7 @@ As like above create object and call the function where the menu UI will created
 
 If you want to change animation speed or color of any of the object you can change the following 
 
-```
+```swift
 let SHEET_TITLE_HEIGHT : Int = 20
 let LAST_BUTTON_PADDING : Int = 20
 let NOTCH_BOTTOM_VALUE : Int = 30
